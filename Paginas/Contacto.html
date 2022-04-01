@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Style/styles.css">
+    <title>Cooperativa de Obras y Servicios Publicos de Canals</title>
+</head>
+<body>
+    <header>
+        <nav class="navLi">
+            <img src="../Imagenes/Logo.png" alt="" class="logoHeader">
+            <ul class="headerUl">
+                <li class="decoLi">
+                    <a href="../index.html" class="decoA">Inicio</a>
+                </li>
+                <li class="decoLi">
+                    <a href="../Paginas/Servicios.html" class="decoA">Servicios</a>
+                </li>
+                <li class="decoLi">
+                    <a href="../Paginas/Proyectos.html" class="decoA">Proyectos</a>
+                </li>
+                <li class="decoLi">
+                    <a href="../Paginas/Nosotros.html" class="decoA">Nosotros</a>
+                </li>
+                <li class="decoLi">
+                    <a href="../Paginas/Contacto.html" class="decoA">Contacto</a>
+                </li>
+                <img src="../Imagenes/descarga (2).png" alt="Iniciar sesion" class="login">
+                <img src="../Imagenes/new-registration.png" alt="Registrarse" class="register">
+                <li class="loginLi">
+                    <button class="loginB">Login</button>
+                </li>
+                <li class="registerLi">
+                    <button class="registerB">Registrarse</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contacto">
+        <h1>¿Donde encontrarnos?</h1>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1662.2732163634128!2d-62.88142597529696!3d-33.56515899839329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cf2c7b9fe04741%3A0x61cccbccf91be546!2sCooperativa%20de%20Obras%20Y%20Servicios%20P%C3%BAblicos%20De%20Canals!5e0!3m2!1ses!2sar!4v1647216456728!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div>
+            <h2>¡Si no puedes contactarte con estos numeros!</h2>
+            <h3>Servicio tecnico: 123878172-918238791823</h3>
+            <h3>Guardia: 2312312-12893798123</h3>
+            <h3>Guardia: 12783712-12312312783712</h3>
+        </div>
+        <div class="formularioContacto">
+            <h2>¡Tambien podes dejarnos tu consulta, que sera respondida en la brevedad!</h2>
+            <form id="formulario">
+                <fieldset>
+                    <div class="form">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" required>
+                    </div>
+                    <div class="form">
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" id="mail" required>
+                    </div>
+                    <div class="form">
+                        <label for="telefono">Numero de telefono</label>
+                        <input type="tel" id="telefono" required>
+                    </div>
+                    <div class="sexo">
+                        <h4>Sexo</h4>
+                        <label for="hombre" class="labSex">Hombre</label>
+                        <input type="radio" name="opciones" id="hombre">
+                        <label for="mujer" class="labSex">Mujer</label>
+                        <input type="radio" name="opciones" id="mujer">
+                        <label for="nobin" class="labSex">No binario</label>
+                        <input type="radio" name="opciones" id="nobin">
+                    </div>
+                    <div class="posee">
+                        <h4>¿Posee alguno de nuestros servicios? (Elige las que sean necesarias)</h4>
+                        <label for="opcion1">Luz</label>
+                        <input type="checkbox" name="" id="luz">
+                        <label for="opcion2">Agua</label>
+                        <input type="checkbox" name="" id="agua">
+                        <label for="opcion3">Internet</label>
+                        <input type="checkbox" name="" id="inet">
+                        <label for="opcion4">Ninguna de las anteriores</label>
+                        <input type="checkbox" name="" id="ning">
+                    </div>
+                    <div class="razon">
+                        <h4>Razon de tu consulta</h4>
+                        <select name="" id="" class="select">
+                            <option value="">Luz</option>
+                            <option value="">Agua</option>
+                            <option value="">Internet</option>
+                            <option value="">Empresas</option>
+                            <option value="">Busqueda laboral</option>
+                        </select>
+                    </div>
+                    <div class="consulta">
+                        <h3>Tu consulta</h3>
+                        <textarea name="consulta" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Enviar" class="submit">
+                        <input type="reset" value="Borrar todo" class="borrar">
+                    </div>
+                </fieldset>
+                <div>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div>
+            <li class="li2">
+                <a href="../index.html" class="foot">Inicio</a>
+            </li>
+            <li class="li2">
+                <a href="../Paginas/Servicios.html" class="foot">Servicios</a>
+            </li>
+            <li class="li2">
+                <a href="../Paginas/Proyectos.htm" class="foot">Proyectos</a>
+            </li>
+            <li class="li2">
+                <a href="../Paginas/Nosotros.html" class="foot">Nosotros</a>
+            </li>
+            <li class="li2">
+                <a href="../Paginas/Contacto.html" class="foot">Contacto</a>
+            </li>
+        </div>
+        <div>
+            <p class="pMails">e-mail: coopcanals@canalsnet.com.ar</p>
+            <p class="pDerechos">© 2022 - TODOS LOS DERECHOS RESERVADOS. COOPERATIVA DE SERVICIOS PUBLICOS DE CANALS.</p>
+        </div>
+    </footer>
+</body>
+</html>

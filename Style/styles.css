@@ -1,0 +1,694 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+header {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navLi {
+    list-style-type: none;
+    font-size: 25px;
+    font-family: 'Roboto';
+    position: relative;
+}
+.decoLi {
+  display: inline-block;
+  padding: 20px;
+}
+.headerUl {
+  text-align: left;
+  position: absolute;
+  display: inline;
+  top: 25px;
+  left: 120px;
+  
+}
+.logoHeader {
+  height: 75px;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  padding: 0.5rem;
+  display: inline-block;
+}
+.login {
+  width: 3%;
+  display: inline-block;
+  position: relative;
+  left: 10%;
+  top: 10px;
+}
+.register {
+  width: 3%;
+  display: inline-block;
+  position: relative;
+  left: 18%;
+  top: 10px;
+}
+.loginLi {
+  position: relative;
+  display: inline-block;
+  left: 8%;
+}
+.loginB {
+  background-color: white;
+  border: 0px;
+  font-size: 20px;
+}
+.registerB {
+  background-color: white;
+  border: 0px;
+  font-size: 20px;
+}
+.registerLi {
+  position: relative;
+  display: inline-block;
+  left: 14%;
+}
+.decoA {
+  outline: none;
+  text-decoration: none;
+  width: 10%;
+  margin-right: 0.625%;
+  color: black;
+}
+.indexTitle {
+    background-color: white;
+    width: 100%;
+    height: 102rem;
+}
+.h1Index {
+  text-align: center;
+  font-size: 60px;
+  padding: 40px;
+}
+
+.imgInicio{
+  width: 90%;
+  position: relative;
+  margin: 50px;
+  left: 1%;
+  padding-bottom: 1px;
+}
+.card1 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 1.5%;
+}
+.card1 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card1 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card1 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card1 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.card2 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 34%;
+  bottom: 410px;
+}
+.card2 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card2 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card2 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card2 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.card3 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 66.5%;
+  bottom: 820px;
+}
+.card3 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card3 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card3 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card3 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.card4 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 1.5%;
+  bottom: 800px;
+}
+.card4 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card4 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card4 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card4 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.card5 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 34%;
+  bottom: 1210px;
+}
+.card5 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card5 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card5 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card5 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.card6 {
+  background-color: #f5f5f5;
+  width: 30%;
+  height: 400px;
+  margin: 10px;
+  position: relative;
+  left: 66.5%;
+  bottom: 1620px;
+}
+.card6 img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 15px;
+}
+.card6 h3 {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.card6 p {
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+.card6 a {
+  display: inline-block;
+  position: relative;
+  left: 80%;
+}
+.footer {
+  background-color: #343c47;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+}
+.foot {
+  color: white;
+  position: relative;
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-decoration: none;
+  left: 40px;
+  display: inline-block;
+  top: 25px;
+  margin-right: 5px;
+
+}
+.li2 {
+  display: inline-block;
+}
+.pMails{
+  color: white;
+  position: relative;
+  top: 15px;
+  left: 65%;
+  font-size: 15px;
+  font-family: 'Roboto';
+  width: 300px;
+  
+}
+.pDerechos {
+  color: white;
+  position: relative;
+  top: 40px;
+  left: 25%;
+  font-size: 10px;
+  font-family: 'Roboto';
+  width: 500px;
+}
+.tituloServicios {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Roboto';
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.htmlServicios, .bodyServicios {
+  height: 100%;
+}
+
+.bodyServicios {
+  display: grid;
+  place-items: center;
+}
+
+.page-content {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem;
+  max-width: 950px;
+  margin: 0 auto;
+  font-family: var(--font-sans);
+}
+@media (min-width: 600px) {
+  .page-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 800px) {
+  .page-content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: whitesmoke;
+  background-color: whitesmoke;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 2px 2px rgba(0, 0, 0, 0.1), 0 4px 4px rgba(0, 0, 0, 0.1), 0 8px 8px rgba(0, 0, 0, 0.1), 0 16px 16px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 600px) {
+  .card {
+    height: 350px;
+    width: 300px;
+  }
+}
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 110%;
+  background-size: cover;
+  background-position: 0 0;
+  transition: transform calc(var(--d) * 1.5) var(--e);
+  pointer-events: none;
+}
+.card:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200%;
+  pointer-events: none;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  transform: translateY(-50%);
+  transition: transform calc(var(--d) * 2) var(--e);
+}
+.card:nth-child(1):before {
+  background-image: url(https://cdn.pixabay.com/photo/2017/10/30/23/34/lamp-2903830__340.jpg);
+}
+.card:nth-child(2):before {
+  background-image: url(https://www.elagoradiario.com/wp-content/uploads/2021/01/agua-1140x600.jpg);
+}
+.card:nth-child(3):before {
+  background-image: url(https://www.muycomputer.com/wp-content/uploads/2019/01/InternetUniversal.jpg);
+}
+
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  transition: transform var(--d) var(--e);
+  z-index: 1;
+}
+.content > * + * {
+  margin-top: 1rem;
+}
+
+
+.title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.copy {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  font-style: italic;
+  line-height: 1.35;
+}
+
+.btn {
+  cursor: pointer;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.025rem;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: #0d0d0d;
+}
+.btn:focus {
+  outline: 1px dashed yellow;
+  outline-offset: 3px;
+}
+
+@media (hover: hover) and (min-width: 600px) {
+  .card:after {
+    transform: translateY(0);
+  }
+
+  .content {
+    transform: translateY(calc(100% - 4.5rem));
+  }
+  .content > *:not(.title) {
+    opacity: 0;
+    transform: translateY(1rem);
+    transition: transform var(--d) var(--e), opacity var(--d) var(--e);
+  }
+
+  .card:hover,
+.card:focus-within {
+    align-items: center;
+  }
+  .card:hover:before,
+.card:focus-within:before {
+    transform: translateY(-4%);
+  }
+  .card:hover:after,
+.card:focus-within:after {
+    transform: translateY(-50%);
+  }
+  .card:hover .content,
+.card:focus-within .content {
+    transform: translateY(0);
+  }
+  .card:hover .content > *:not(.title),
+.card:focus-within .content > *:not(.title) {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: calc(var(--d) / 8);
+  }
+
+  .card:focus-within:before, .card:focus-within:after,
+.card:focus-within .content,
+.card:focus-within .content > *:not(.title) {
+    transition-duration: 0s;
+  }
+}
+.tituloProyectos {
+  font-size: 80px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.alumbrado h2 {
+  padding: 10px;
+  font-size: 30px;
+  font-family: 'Roboto';
+  position: relative;
+  left: 10%;
+}
+.alumbrado p {
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 40px;
+}
+.alumbrado iframe {
+  position: relative;
+  left: 25%;
+}
+.gas h2 {
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Roboto';
+  position: relative;
+  left: 10%;
+}
+.gas p {
+  font-size: 20px;
+  font-family: 'Roboto';
+  padding: 30px;
+}
+.gas iframe {
+  position: relative;
+  left: 25%;
+}
+.nosotros h1 {
+  font-family: 'Roboto';
+  font-size: 80px;
+  text-align: center;
+}
+.nosotros p {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.objetivos h2 {
+  font-family: 'Roboto';
+  font-size: 80px;
+  text-align: center;
+}
+.objetivos p {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.valores h2 {
+  font-family: 'Roboto';
+  font-size: 80px;
+  text-align: center;
+}
+.valores p {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.adm h2 {
+  font-family: 'Roboto';
+  font-size: 80px;
+  text-align: center;
+}
+.tablaConsejo {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.tablaConsejo td {
+  padding: 15px;
+}
+.contacto h1 {
+  font-family: 'Roboto';
+  font-size: 80px;
+  text-align: center;
+}
+.contacto iframe {
+  position: relative;
+  left: 25%;
+}
+.contacto h2 {
+  font-family: 'Roboto';
+  font-size: 40px;
+  text-align: center;
+  padding: 40px;
+}
+.contacto h3 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.form label {
+  font-family: 'Roboto';
+  font-size: medium;
+  position: relative;
+  left: 40%;
+}
+#nombre {
+  position: relative;
+  left: 40%;
+}
+#mail {
+  position: relative;
+  left: 40%;
+}
+#telefono {
+  position: relative;
+  left: 40%;
+}
+.sexo h4 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.labSex {
+  font-family: 'Roboto';
+  font-size: medium;
+  position: relative;
+  left: 40%;
+}
+#hombre {
+  position: relative;
+  left: 40%;
+}
+#mujer {
+  position: relative;
+  left: 40%;
+}
+#nobin {
+  position: relative;
+  left: 40%;
+}
+.posee h4 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.posee label {
+  font-family: 'Roboto';
+  font-size: medium;
+  position: relative;
+  left: 40%;
+}
+#luz {
+  position: relative;
+  left: 40%;
+}
+#agua {
+  position: relative;
+  left: 40%;
+}
+#inet {
+  position: relative;
+  left: 40%;
+}
+#ning {
+  position: relative;
+  left: 40%;
+}
+.razon h4 {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+}
+.select {
+  position: relative;
+  left: 45%;
+}
+.consulta textarea {
+  position: relative;
+  left: 40%;
+}
+.submit {
+  position: relative;
+  left: 40%;
+}
+.borrar {
+  position: relative;
+  left: 50%;
+}
